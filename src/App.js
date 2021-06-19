@@ -49,8 +49,8 @@ function App() {
 	}
 
 	return (
-    <div>
-    <div class="card-body " style={{width: '27rem',borderRadius:'10px' ,textAlign: 'center'}}>
+    <div className="position-relative card-body rounded">
+   
 		<div className="App p-3 mb-2 bg-secondary text-white" 
     style={{backgroundColor:'##414ba3', border:'1px solid', borderRadius:'10px'}}>
 			<div className="col-12">
@@ -90,7 +90,7 @@ function App() {
 			</div>
 		</div>
     </div>
-    </div>
+    
 	);
 }
 
